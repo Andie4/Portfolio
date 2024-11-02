@@ -4,16 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Accueil</a></li>
-            <li><a href="projets.html">Projets</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
-    <h3>me contacter </h3>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="projets.html">Projets</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="bordures">
+        <h3>me contacter </h3>
+
+        <p>CANEVAL ANDRÉA</p>
+        <p>E-mail : andrea.caneval.pro@gmail.com</p>
+        <p>Tél : 00 11 22 33 44</p>
+
+        <form action="post">
+            <label for="nom">Nom</label>
+            <input type="text" id="nom" name="nom">
+            <label for="nom">Prénom</label>
+            <input type="text" id="nom" name="nom">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
+            <label for="email">Téléphone</label>
+            <input type="email" id="téléphone" name="téléphone">
+            <label for="message">Votre message</label>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </div>
+
+    
     
 </body>
 </html>
