@@ -9,16 +9,28 @@ body {
     font-size: 1.2rem;
     font-family: Popins, sans-serif;
 }
+/* -----------------polices---------------- */
 .bruno-ace-regular {
     font-family: "Bruno Ace", sans-serif;
     font-weight: 400;
     font-style: normal;
   }
-  
+ /* -------------- couleurs---------  */
 
-
+ :root {
+    --color1: #000000;
+    --color2: #FFF;
+    --color3: #0F5B34;
+    --color4: #CBDFC7;
+    --color5: #8AB993;
+    --color6: #CBDFC7;
+    --color7: #;
+    --color8: #;
+    --color9: #;
+}
+/* --------header---------------- */
 header{
-    background-color: #0F5B34;
+    background-color: var(--color3);
     color: white;
     padding: 10px;
     text-align: center;
@@ -33,6 +45,71 @@ h1{
 
 }
 
+.bg-vert5{
+    background-color:var(--color5);
+    color: var(--color2);
+    padding: 20px;
+    border-radius: 40px;
+}
+
+.bg-vert3{
+    background-color:var(--color3);
+    color: var(--color2);
+    padding: 20px;
+    border-radius: 40px;
+}
+
+.bg-vert6{
+    background-color:var(--color6);
+    color: var(--color2);
+    padding: 30px;
+    border-radius: 40px;
+}
+
+.border-vert3{
+    border: 1px solid var(--color3);
+    padding: 5px;
+    border-radius: 50px;
+    width: fit-content;
+}
+
+/* ---------SECTION "À propos de moi"------------ */
+
+
+
+/* ---------sous section 1 "Mon parcours"------------ */
+
+
+
+
+/* ---------sous section 2 "Mes compétences"------------ */
+
+
+
+
+
+/* ---------sous section 3 "Mes centres d'intérets"------------ */
+
+
+
+
+/* ---------SECTION "Mes projets"------------ */
+
+
+
+/* ---------sous section 1 "Détails projets"------------ */
+
+
+/* ---------SECTION "CONTACT"------------ */
+
+
+/* ---------section "À propos de moi"------------ */
+
+
+
+
+
+
 .apercuProjets{
     display: flex;
     flex-wrap: wrap;
@@ -41,10 +118,10 @@ h1{
 }
 
 .bordures{
-    border: 1px solid black;
+    border: 1px solid rgb(255, 0, 0);
     border-radius: 10px;
     padding: 10px;
-    margin: 10px;
+    margin: 25px;
 }
 
 img{
@@ -62,3 +139,77 @@ footer{
     font-weight: bold;
     text-decoration: none;
 }
+
+.logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.illustration1{
+    width: 10vh;
+    height: 10vh;
+    border-radius: 10px;
+    
+}
+
+header nav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    color: var(--color3);
+
+}
+
+.a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.titreAccueil{
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--color3);
+    margin-top: 40vh;
+    margin-bottom: 30vh;
+}
+
+.titreColor{
+    font-size: 1.5rem;
+    color: var(--color3);
+    /* font-weight: bold; */
+    display: flex;
+    justify-content: center;
+    margin: 5vh;
+    
+
+}
+/* le contenu qui défile */
+.marquee-rtl {
+    max-width:auto;                     /* largeur de la fenêtre */
+    margin: 1em auto 2em;
+    overflow: hidden;                     /* masque tout ce qui dépasse */
+    background-color: var(--color4);
+  }
+  /* le bloc défilant */
+  .marquee-rtl > :first-child {
+    display: inline-block;                /* modèle de boîte en ligne */
+    padding-right: 2em;                   /* un peu d'espace pour la transition */
+    padding-left: 100%;                   /* placement à droite du conteneur */
+    white-space: nowrap;                  /* pas de passage à la ligne */
+    animation: defilement-rtl 15s infinite linear;
+  }
+
+  @keyframes defilement-rtl {
+    0% {
+      transform: translate3d(0,0,0);      /* position initiale à droite */
+    }
+    100% {
+      transform: translate3d(-100%,0,0);  /* position finale à gauche */
+    }
+  }
