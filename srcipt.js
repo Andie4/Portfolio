@@ -1,6 +1,6 @@
 // alert('test')
 
-// nav menu burger
+//-------------------------- nav menu burger----------------------------
 document.addEventListener("DOMContentLoaded", function () {
     const toggler = document.querySelector(".navbar-toggler");
     const menu = document.querySelector("#navbarNavDropdown");
@@ -12,7 +12,6 @@ document.addEventListener("DOMContentLoaded", function () {
         toggler.classList.toggle("active");
     });
 });
-
 // inspiration menu burger : https://codepen.io/joesayegh/pen/jOEVPKO
 
 
