@@ -22,7 +22,7 @@ footer{
     text-align: center;
     margin-top: 20px;
     padding: 10px;
-    background-color: #0F5B34;
+    background-color: #bc0d0d;
     display: flex;
     justify-content: space-evenly;
 
@@ -376,55 +376,46 @@ h5{
     margin-top: 20px;
 }
 
-
-
-
-
-/* ------------resaweb---------------- */
-.resaweb h3{
+/* -----------------Blog---------------- */
+.blog h3{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: var(--color8);
+    color: var(--color1);
 }
 
-.resaweb .pageProjets{
+.blog .pageProjets{
     text-decoration: none;
     color: var(--color2);
-    background-color: var(--color8);
+    background-color: var(--color10);
     border-radius: 10px;
     padding: 10px;
     margin: 10px;
 }
 
-.resaweb .lien-projets {
+.blog .lien-projets {
     text-decoration: none;
-    color: var(--color1);
-    background-color: var(--color7);
+    color: var(--color2);
+    background-color: var(--color9);
     border-radius: 10px;
     padding: 10px;
     margin: 10px;
 
 }
 
-.resaweb .lien-projets :hover{
+.blog .lien-projets :hover{
     box-shadow: 0 0 20px var(--color8);
     transition: all 0.3s ease-in-out;
 }
-.resaweb footer{
+
+.blog footer{
     background-color: var(--color7);
 
 }
-.resaweb footer a{
+
+.blog footer a{
     color: var(--color1);
 }
-
-
-
-
-
-
-
 
 
 
@@ -559,4 +550,5 @@ h5{
 
     }
 }
+
 
