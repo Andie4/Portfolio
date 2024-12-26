@@ -1,0 +1,198 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-size: 1.2rem;
+    font-family: Popins, sans-serif;
+}
+
+.bordures{
+    border: 1px solid rgb(255, 0, 0);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+}
+
+
+footer{
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #bc0d0d;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+footer a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+}
+
+
+/* -----------------polices---------------- */
+.bruno-ace-regular {
+    font-family: "Bruno Ace", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+ /* -------------- couleurs---------  */
+
+ :root {
+    --color1: #000000;
+    --color2: #FFF;
+    --color9: #d41616;
+    --color10: #6f0707;
+    --color11: rgb(164, 30, 164);
+    --color12: #3f1d61;
+    
+}
+/* ---------------------------header----------------------------- */
+header{
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    color: var(--color3);
+}
+
+/* boutton du menu burger */
+.navbar-toggler{
+    background-color: var(--color3);
+}
+
+
+
+/* ---------SECTION "Mes projets"------------ */
+a img{
+    width: 50vh;
+    height: 30vh;
+    border-radius: 10px;
+}
+
+
+.sousTitre{
+    margin-bottom: 5vh;
+    color: var(--color12);
+}
+
+
+h4{
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4vh;
+}
+
+h5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4vh;
+}
+
+.projets{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 5vh;
+}
+
+.apercuProjets{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* -----------------Blog---------------- */
+h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color1);
+}
+
+.pageProjets{
+    text-decoration: none;
+    color: var(--color2);
+    background-color: var(--color12);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 1rem;
+}
+
+.lien-projets {
+    text-decoration: none;
+    color: var(--color2);
+    background-color: var(--color11);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 1rem;
+
+}
+
+.lien-projets :hover{
+    box-shadow: 0 0 20px var(--color8);
+    transition: all 0.3s ease-in-out;
+}
+
+footer{
+    background-color: var(--color12);
+
+}
+
+.blog footer a{
+    color: var(--color1);
+}
+
+.centerImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5vh;
+}
+
+@media screen and (max-width:700px) {
+    .apercuProjets{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 20px;
+        width: 350px;
+        height: auto;
+    }
+}
+
+
+
+/* ---------sous section 1 "Détails projets"------------ */
+.slider img{
+    width: 30vh;
+    height: 30vh;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+

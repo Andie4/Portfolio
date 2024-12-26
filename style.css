@@ -104,7 +104,7 @@ h1{
     /* font-weight: bold; */
     display: flex;
     justify-content: center;
-    margin-top: 8vh;
+    margin-top: 20vh;
     margin-bottom: 2vh;
     
 
@@ -117,29 +117,48 @@ h1{
 
 
 /* ------------le contenu qui défile ------------- */
-.marquee-rtl {
-    max-width:auto;         /* largeur de la fenêtre */
-    margin: 1em auto 2em;
-    overflow: hidden;      /* masque tout ce qui dépasse */
-    background-color: var(--color4);
+.messagedefilant {
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    background-color: var(--color6);
+    box-sizing: border-box;
+    padding: 20px; 
+    display: flex;
+    align-items: center; 
+    font-size: large;
   }
-  /* le bloc défilant */
-  .marquee-rtl > :first-child {
-    display: inline-block; /* modèle de boîte en ligne */
-    padding-right: 2em;  /* un peu d'espace pour la transition */
-    padding-left: 100%;  /* placement à droite du conteneur */
-    white-space: nowrap; /* pas de passage à la ligne */
-    animation: defilement-rtl 15s infinite linear;
+  
+  .contenu {
+    display: inline-flex;
+    white-space: nowrap;
+    animation: defilement 10s linear infinite;
   }
 
-  @keyframes defilement-rtl {
-    0% {
-      transform: translate3d(0,0,0); /* position initiale à droite */
+  @keyframes defilement {
+    from {
+      transform: translateX(0); /* Début du texte à gauche */
     }
-    100% {
-      transform: translate3d(-100%,0,0);/* position finale à gauche */
+    to {
+      transform: translateX(-100%); /* Fait défiler le texte vers la gauche */
     }
   }
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* -----------------------SECTION "À propos de moi"----------------------- */
@@ -164,6 +183,14 @@ h1{
     border-radius: 40px;
 }
 
+.ma_photo{
+    border: 1px solid var(--color3);
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
 
 
 
@@ -200,6 +227,7 @@ h1{
     color: whitesmoke;
 
 }
+
 
 
 .interact-scolaire :hover{
@@ -370,10 +398,16 @@ h5{
     margin-bottom: 5vh;
 }
 
-.apercuProjets{
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
+
+@media screen and (max-width:700px) {
+    .apercuProjets{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 20px;
+        width: 350px;
+        height: auto;
+    }
 }
 
 
@@ -412,14 +446,18 @@ h5{
     transition: all 0.3s ease-in-out;
 }
 .resaweb footer{
-    background-color: var(--color7);
+    background-color: var(--color8);
 
 }
 .resaweb footer a{
-    color: var(--color1);
+    color: var(--color2);
 }
 
-
+.centerImg{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5vh;
+}
 
 
 
@@ -440,6 +478,81 @@ h5{
 
 
 /* ---------SECTION "CONTACT"------------ */
+.colorContact{
+    background-color: var(--color5);    
+}
+
+.contact{
+    flex-wrap: wrap;
+    margin-bottom: 10vh;
+
+}
+
+.imgMouve{
+    width: 10vh;
+    height: 10vh;
+    border-radius: 10px;
+    animation: infinite;
+    animation-duration: 3s;
+    animation-name: rotation;
+    margin-bottom: 3vh;
+    margin-left:30vh ;
+    rotate: 20deg;
+
+}
+
+.linkedin{
+    width: 15vh;
+    height: auto;
+    margin-left: 2vh;
+}
+
+
+.linkLinkedin{
+    height: auto;
+    width: 300px;
+    text-decoration: none;
+    color: var(--color2);
+    background-color: var(--color3);
+    border-radius: 10px;
+    padding: 5px 8px 5px 8px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3vh;
+
+    
+}
+
+.centerLink{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.linkLinkedin:hover{
+    box-shadow: 0 0 20px var(--color2);
+}
+
+/* @keyframes bouge {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(20px); }
+    50% { transform: translateX(0); }
+    75% { transform: translateX(-20px); }
+    100% { transform: translateX(0); }
+  } */
+
+@keyframes rotation {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(15deg); }
+    50% { transform: rotate(0deg); }
+    75% { transform: rotate(15deg); }
+    100% { transform: rotate(0deg); }
+ 
+}
 
 
 /* ---------section "À propos de moi"------------ */
@@ -490,13 +603,14 @@ h5{
         max-width: 500px;
 
     }
+    .ma_photo{
+        border: 1px solid var(--color3);
+        width: 500px;
+        height: 300px;
+        border-radius: 10px;
+    }
     
 }
-
-
-
-
-
 
 
 
@@ -520,11 +634,15 @@ h5{
     .bento-grid{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 50px;
+        gap: 80px;
         margin-top: 20px;
         margin-left: 10vh;
         margin-right: 10vh;
+        display: flex;
+        justify-content: center;
+        
     }
+    
 
     .bg-vert5{
         background-color:var(--color5);
@@ -536,8 +654,8 @@ h5{
 
     .ma_photo{
         border: 1px solid var(--color3);
-        width: 100%;
-        height: 100%;
+        width: 500px;
+        height: 300px;
         border-radius: 10px;
     }
     
@@ -558,5 +676,99 @@ h5{
         max-width: 500px;
 
     }
+
+    .bentoCompetences{
+        display: flex;
+        justify-content: center ;
+    }
+
+    .interact-dev{
+        width: 600px;
+    }
+
+    .interact-crea{
+        width: 600px;
+    }
+
+    #slider {
+        width: 600px;
+    }
 }
 
+/* -------------------SECTION CONTACTS -------------------- */
+html {
+    height: 100%;
+  }
+  
+  .login-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: var(--color5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+  }
+  
+  
+  .login-box .user-box {
+    position: relative;
+  }
+  
+  .login-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: var(--color3);
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid var(--color3);
+    outline: none;
+    background: transparent;
+  }
+  .login-box .user-box label {
+    position: absolute;
+    top:0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: var(--color3);
+    pointer-events: none;
+    transition: .5s;
+  }
+  
+  .login-box .user-box input:focus ~ label,
+  .login-box .user-box textarea:focus ~ label{
+    top: -20px;
+    left: 0;
+    color: var(--color3);
+    font-size: 12px;
+  }
+  
+  .login-box form a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: var(--color3);
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 4px
+  }
+  
+  textarea{
+      width: 100%;
+      padding: 10px 0;
+      font-size: 16px;
+      color: var(--color3);
+      margin-bottom: 30px;
+      border: none;
+      border-bottom: 1px solid var(--color3);
+      outline: none;
+      background: transparent;
+  }
