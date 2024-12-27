@@ -192,6 +192,9 @@ h1{
     justify-content: center;
 }
 
+.liens{
+    align-items: center;
+}
 
 
 
@@ -605,11 +608,13 @@ h5{
     }
     .ma_photo{
         border: 1px solid var(--color3);
-        width: 500px;
-        height: 300px;
+        width: 30px;
+        height: 30px;
         border-radius: 10px;
     }
     
+
+
 }
 
 
@@ -642,7 +647,6 @@ h5{
         justify-content: center;
         
     }
-    
 
     .bg-vert5{
         background-color:var(--color5);
@@ -650,22 +654,16 @@ h5{
         padding: 40px;
         border-radius: 40px;
         max-width: 500px;
+        max-height:250px ;
     }
 
-    .ma_photo{
-        border: 1px solid var(--color3);
-        width: 500px;
-        height: 300px;
-        border-radius: 10px;
-    }
     
     .bg-vert3{
         background-color:var(--color3);
         color: var(--color2);
-        padding: 40px;
         border-radius: 40px;
         max-width: 500px;
-
+        max-height: 300px;
     }
     
     .bg-vert6{
@@ -692,6 +690,12 @@ h5{
 
     #slider {
         width: 600px;
+    }
+
+    .ma_photo{
+        width: 250px;
+        height: 250px;
+        border-radius: 10px;
     }
 }
 
