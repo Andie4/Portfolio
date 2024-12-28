@@ -18,22 +18,6 @@ body {
 }
 
 
-footer{
-    text-align: center;
-    margin-top: 20px;
-    padding: 10px;
-    background-color: #0F5B34;
-    display: flex;
-    justify-content: space-evenly;
-
-}
-
-footer a {
-    font-size: 1.5rem;
-    text-decoration: none;
-    color: white;
-}
-
 
 /* -----------------polices---------------- */
 .bruno-ace-regular {
@@ -104,7 +88,7 @@ h1{
     /* font-weight: bold; */
     display: flex;
     justify-content: center;
-    margin-top: 20vh;
+    margin-top: 10vh;
     margin-bottom: 2vh;
     
 
@@ -194,8 +178,31 @@ h1{
 
 .liens{
     align-items: center;
+    height: 250px;
 }
 
+.buttonLink{
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+
+    color: var(--color2);
+    background-color: var(--color3);
+    border-radius: 50px;
+    width: 180px;
+    height: 40px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+}
+
+.buttonLink:hover{
+    box-shadow: 0 0 20px var(--color3);
+    transition: all 0.3s ease-in-out;
+    background-color: var(--color5);
+}
 
 
 /* ---------------------sous section 1 "Mon parcours"--------------------- */
@@ -205,7 +212,7 @@ h1{
     border-radius: 50px;
     width: 15vh;
     color: var(--color3);
-    margin: 5vh;
+    margin: 2vh;
 }
 
 .professionnel{
@@ -213,12 +220,13 @@ h1{
 }
 
 .border-vertProfessionnel{
-    padding-left: 0.5vh;
+    padding-left: 2vh;
     border: 1px solid var(--color3);
     border-radius: 50px;
     width: 18vh;
     color: var(--color3);
-    margin: 5vh;
+    margin: 2vh;
+
 }
 
 
@@ -641,10 +649,11 @@ h5{
         grid-template-columns: repeat(2, 1fr);
         gap: 80px;
         margin-top: 20px;
-        margin-left: 10vh;
-        margin-right: 10vh;
+        margin-left: auto;
+        margin-right: auto;
         display: flex;
         justify-content: center;
+        width: 800px;
         
     }
 
@@ -662,8 +671,10 @@ h5{
         background-color:var(--color3);
         color: var(--color2);
         border-radius: 40px;
-        max-width: 500px;
+        max-width: 550px;
         max-height: 300px;
+        margin-right: 5vh;
+
     }
     
     .bg-vert6{
@@ -671,8 +682,14 @@ h5{
         color: var(--color3);
         padding: 40px;
         border-radius: 40px;
-        max-width: 500px;
+        /* max-width: 250px;
+        max-height: 250px; */
 
+    }
+
+    .infos{
+        max-width: 1000px;
+        margin: auto;
     }
 
     .bentoCompetences{
@@ -695,8 +712,40 @@ h5{
     .ma_photo{
         width: 250px;
         height: 250px;
-        border-radius: 10px;
+        border-radius: 40px;
+        margin-right: 5vh;
     }
+
+    .center{
+        display: flex;
+    }
+
+    .liens{
+        width: 250px;
+        height: 250px;
+    }
+
+    footer{
+        background-color: #0F5B34;
+        color: white;
+        text-align: center;
+        padding: 10px;
+    }
+    
+    .footerLink{
+        text-align: center;
+        margin-top: 20px;
+        padding: 10px;
+    
+    }
+    
+    footer a {
+        font-size: 1.5rem;
+        text-decoration: none;
+        color: white;
+        margin: 10px;
+    }
+    
 }
 
 /* -------------------SECTION CONTACTS -------------------- */
