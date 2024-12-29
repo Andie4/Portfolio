@@ -52,3 +52,58 @@ function showMentions() {
     popUp.style.display = "none";
   }
   
+
+
+
+
+// -------------l'appel des projets---------
+// script.js
+document.addEventListener("DOMContentLoaded", () => {
+    const urlParams = new URLSearchParams(window.location.search);
+    const projectId = urlParams.get("id");
+  
+    fetch("projects.json")
+      .then(response => response.json())
+      .then(data => {
+        const project = data.find(p => p.id === projectId);
+  
+        if (project) {
+          // affiche les info des projets
+          document.getElementById("project-title").textContent = project.title;
+          document.getElementById("project-image").src = project.image;
+          document.getElementById("project-objective").textContent = `Objectif : ${project.objective}`;
+          document.getElementById("project-time").textContent = `Durée : ${project.time}`;
+          document.getElementById("project-process").textContent = `Processus : ${project.process}`;
+          document.getElementById("project-constraints").textContent = `Contraintes : ${project.constraints}`;
+          const projectLink = document.getElementById("project-link");
+          projectLink.href = project.link;
+  
+          // couleur footer
+          const footer = document.getElementById("dynamic-footer");
+          footer.style.backgroundColor = project.colorBtnActive;
+          footer.style.color = "white";
+
+          // changement de la couleurdu titre en fonction du projet actif
+            const title = document.querySelector(".title");
+            if (title) {
+            title.style.color = project.colorBtnActive;
+            }
+
+
+        const links = document.querySelectorAll(".project-link");
+        links.forEach(link => {
+
+          // projet actif
+          if (link.dataset.id === projectId) {
+            link.style.backgroundColor = project.colorBtnActive; 
+            link.style.color = "white"; 
+          } else {
+        // projets non actif 
+            link.style.backgroundColor = project.color; 
+            link.style.color = "white";
+          }
+        });
+      }
+    })
+    .catch(error => console.error("Erreur lors du chargement des projets :", error));
+});

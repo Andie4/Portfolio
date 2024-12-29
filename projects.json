@@ -1,0 +1,75 @@
+[
+    {
+        "id": "resaweb",
+        "title": "Site de réservations",
+        "color": "#76c2f8",
+        "colorBtnActive": "#065186",
+        "image": "./images/img_deepblue.png",
+        "objective": "Créer un site de réservation d'excursions sous-marine.",
+        "time": "Pour ce projet je disposais de 2 mois et demi",
+        "process": "Premièrement j'ai choisis mon thème, ensuite j'ai créer le modèle entité association puis le modèle physique de données. Suite à ça j'ai créer ma base de données. Et pour finir j'ai réalisé une maquette de mon site sur figma pour ensuite la développer.",
+        "constraints": "Nous avions obligation d'inclure un filtre, une recherche et la posibilité de réserver une excursions.",
+        "link": "https://resaweb.caneval.butmmi.o2switch.site/"
+      },
+      {
+        "id": "blog",
+        "title": "Blog en php",
+        "color": "#d41616",
+        "colorBtnActive": "#6f0707",
+        "image": "./images/img_blog.png",
+        "objective": "Objectif : Créer un site de réservation d'excursions sous-marine.",
+        "time": "3 mois",
+        "process": "Exploration, conception, développement.",
+        "constraints": "Grande quantité de données.",
+        "link": "https://blog.caneval.butmmi.o2switch.site/index.php"
+      },
+    {
+      "id": "dataviz",
+      "title": "Site de données",
+        "color": "#a41ea4",
+        "colorBtnActive": "#3f1d61",
+        "image": "./images/img_dataviz.png",
+        "objective": "Objectif : Créer un site de réservation d'excursions sous-marine.",
+        "time": "3 mois",
+        "process": "Exploration, conception, développement.",
+        "constraints": "Grande quantité de données.",
+        "link": "https://andie4.github.io/DataMusic/"
+    },
+    {
+        "id": "pawsitive",
+        "title": "Site associatif",
+        "color": "#149238",
+        "colorBtnActive": "#284c18",
+        "image": "./images/img_pawsitive.png",
+        "objective": "Objectif : Créer un site de réservation d'excursions sous-marine.",
+        "time": "3 mois",
+        "process": "Exploration, conception, développement.",
+        "constraints": "Grande quantité de données.",
+        "link": "https://pawsitive.desgranges.butmmi.o2switch.site/"
+    },
+    {
+      "id": "unity",
+      "title": "Maquette de site",
+        "color": "#918acd",
+        "colorBtnActive": "#768fff",
+        "image": "./images/img_unity.png",
+        "objective": "Objectif : Créer un site de réservation d'excursions sous-marine.",
+        "time": "3 mois",
+        "process": "Exploration, conception, développement.",
+        "constraints": "Grande quantité de données.",
+        "link": "https://www.figma.com/design/l9XpaUejf0DNfMQ8NLdBMG/Unity---Emilie-et-Andr%C3%A9a?node-id=0-1&t=pgPpvFUC3Yjp3I5Y-1"
+    },
+    {
+      "id": "itw",
+      "title": "Interview",
+        "color": "#897643",
+        "colorBtnActive": "#2e2717",
+        "image": "./images/img_itw.png",
+        "objective": "Objectif : Créer un site de réservation d'excursions sous-marine.",
+        "time": "3 mois",
+        "process": "Exploration, conception, développement.",
+        "constraints": "Grande quantité de données.",
+        "link": "https://youtu.be/5pr81fdl-cI"
+    }
+  ]
+  

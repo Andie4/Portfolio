@@ -42,73 +42,83 @@
      
   
       <div class="bordures">
-          <h3 class="bruno-ace-regular sousTitre">Mes differents projets</h3>
+          <h3 class="bruno-ace-regular sousTitre title">Mes différents projets</h3>
   
           <div class="projets">
-            <a class="pageProjets" href="projets.html">Site de réservations</a>
-            <a class="lien-projets" href="blog.html">Blog en php</a>
-            <a class="lien-projets" href="dataviz.html">Site de données</a>
-            <a class="lien-projets" href="pawsitive.html">Site associatif</a>
-            <a class="lien-projets" href="unity.html">Maquette de site</a>
-            <a class="lien-projets" href="itw.html">Interview</a>
+            <a class="project-link" data-id="resaweb" href="projets.html?id=resaweb">Site de réservations</a>
+            <a class="project-link" data-id="blog" href="projets.html?id=blog">Blog en php</a>
+            <a class="project-link" data-id="dataviz" href="projets.html?id=dataviz">Site de données</a>
+            <a class="project-link" data-id="pawsitive" href="projets.html?id=pawsitive">Site associatif</a>
+            <a class="project-link" data-id="unity" href="projets.html?id=unity">Maquette de site</a>
+            <a class="project-link" data-id="itw" href="projets.html?id=itw">Interview</a>
           </div>
-        <div class="">
+       
+         
 
+      <section class="resaweb">
+        <div class="project-container gridProject">
+          <h1 id="project-title"></h1>
         </div>
-          <h4>Crétion d'un site de réservations</h4>
-              <div class="tailleGridProjects">
-
-                  <div class="gridProjets .center">
-                      <div class="centerImg">
-                        <a href="https://resaweb.caneval.butmmi.o2switch.site/"><img src="./images/img_deepblue.png" alt="" class="apercuProjets"></a>
-                      </div>
-                      
-                      <div>
-                          <h5>L'objectif</h5>
-                          <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte.</p>
-                      </div>
-                  </div>
 
 
-              </div>
 
 
-              <div class="projects2">
-                <h5>Le temps</h5>
-                <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. </p> <br>
-            
-                <h5>Le dérouler</h5>
-                <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.outils, organisation etc.., </p><br>
-            
-            
-                <h5>Les contraintes</h5>
-                <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. </p><br>
-              </div>
-                
 
-            
+<div class="tailleGridProjets">
+    <div class="gridProjets">
+        <div>
+          <a id="project-link" target="_blank"><img id="project-image" alt="Aperçu du projet" class="apercuProjets"></a>
+        </div>
 
-           <br>
-      
-      
-      
-      </div>
+        <div class="texte">
+          <p id="project-objective"></p>
+        </div>
+    </div>
+
+    <div class="projects2">
+        <p id="project-time"></p>
+    </div>
+
+    <div class="projects2">
+        <p id="project-process"></p>
+    </div>
+
+    <div class="projects2">
+        <p id="project-constraints"></p>
+    </div>
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
   
-      <footer>
-        <div class="footerLink">
-            <a href="index.html">Accueil</a>
-            <a href="projets.html">Projets</a>
-            <a href="contact.html">Contact</a>
-            <a href="mentionsLegales.html">Mentions légales</a>
-            <a href="sources.html">Sources</a>
-        </div><br>
-  
-            <p>Dernière mise à jour faites le 20 décembre.</p><br>
-  
-            <div>© 2024 - Andréa - Portfolio</div>
-      </footer>
+      
   
   </section>
+  <footer id="dynamic-footer">
+    <div class="footerLink">
+        <a href="index.html">Accueil</a>
+        <a href="projets.html">Projets</a>
+        <a href="contact.html">Contact</a>
+        <a href="mentionsLegales.html">Mentions légales</a>
+        <a href="sources.html">Sources</a>
+    </div><br>
+
+        <p>Dernière mise à jour faites le 20 décembre.</p><br>
+
+        <div>© 2024 - Andréa - Portfolio</div>
+  </footer>
 
 <script src="srcipt.js"></script>
 </body>
