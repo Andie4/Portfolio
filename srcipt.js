@@ -31,3 +31,24 @@ function ChangeSlide(sens) {
         numero = 0;
     document.getElementById("slide").src = slide[numero];
 }
+
+
+
+
+//---------------------------- Pop up informations opquast ------------------------------------
+
+    
+function showMentions() {
+    const popUp = document.getElementById("InfoPopUp");
+    const background = document.querySelector(".bg-vert3");
+  
+    popUp.style.display = "block";
+  }
+  
+  function hideMentions() {
+    const popUp = document.getElementById("InfoPopUp");
+    const background = document.querySelector(".bg-vert5");
+  
+    popUp.style.display = "none";
+  }
+  

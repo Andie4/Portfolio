@@ -22,7 +22,7 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"></a>
+                  <a class="nav-link active" aria-current="page" href="#">⚙️</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#apropos">À propos de moi</a>
@@ -55,7 +55,7 @@
 </div>
 
     <div class="bordures">
-      <h3 id="apropos" class="titreColor">À propos de moi</h3>
+      <h2 id="apropos" class="titreColor">À propos de moi</h2>
 
       <div class="bento-grid">
         <div class="center">
@@ -79,7 +79,7 @@
         </div>
       </div>
         
-        <h3 id="monParcours" class="titreColor espaceHaut">Mon parcours</h3>
+        <h2 id="monParcours" class="titreColor espaceHaut">Mon parcours</h2>
 
 
         <div class="infos">
@@ -169,13 +169,13 @@
         
 
     
-        <h3 id="mesCompetences" class="titreColor">Mes compétences</h3>
+        <h2 id="mesCompetences" class="titreColor">Mes compétences</h2>
 
       <div class="bentoCompetences">
 
         <div class="interact-dev">
-          <div class="bg-vert3 devSkills" >
-            <h4>Développement</h4>
+          <div class="bg-vert3 devSkills">
+            <h3>Développement</h3>
             <ul>
               <li>HTML</li>
               <li>CSS</li>
@@ -183,14 +183,26 @@
               <li>PHP</li>
               <li>SQL</li>
               <li>Bootstrap</li>
-              <li>Wordpress</li>
+              <li>WordPress</li>
+              <img src="./images/point-dinterrogation.png" alt="Point d'interrogation" class="popUp" onclick="showMentions()">
+        
+              <div class="InfoPopUp" id="InfoPopUp">
+                <span class="close-btn" id="closeBtn" onclick="hideMentions()">Fermer</span> <br>
+
+                  <p>Je tiens à vous informer que je vais passer <strong>une certification Opquast</strong> en début avril 2025. Vous ne savez pas ce que c’est?</p>
+                  <p> Je vous explique, Opquast c'est <strong>240 règles regroupées</strong>. Ces dernières touchent plusieurs domaines, <strong>le référencement, la sécurité, l’accessibilité, les données personnelles, la performance, l’écoconception, l’e-commerce</strong>.</p>
+                  <p>La certification Opquast me permettra donc d’intégrer encore plus de règles essentielles pour l’<strong>assurance qualité </strong> des sites auxquels je vais contribuer.</p>
+                  <p><strong>C’est un atout majeur.</strong></p>
+                
+              </div>
             </ul>
           </div>
         </div>
-     
+        
+  
       <div class="interact-crea">
         <div class="bg-vert3 creaSkills" >
-          <h4>Création</h4>
+          <h3>Création</h3>
             <ul>
                 <li>Photoshop</li>
                 <li>Illustrator</li>
@@ -204,10 +216,17 @@
         </div>
       </div>
       </div>  
-          
+
+      <h2 id="mesTemoignages" class="titreColor">Les témoignages</h2>
+      <div class="temoignages">
+          <p><strong>Noor : </strong>Andréa est une très bonne élève, organisée et impliquée. Les projets que j'ai pu réaliser avec elle sont de très bonnes qualités, et son organisation nous a permis de progresser efficacement sur ceux-ci. Elle est un véritable élément moteur dans le groupe !</p> <br>
+          <p><strong>Béryl : </strong>Andréa est quelqu'un qui apporte la bonne humeur dans une équipe. Elle sait s'organiser et prendre ses responsabilités, persévérante, elle n'a pas peur des obstacles et a soif de connaissance. Pendant les projets que nous avons partagés, elle a été un élément moteur qui nous pousse à nous dépasser.</p> <br>
+          <p><strong>Gael : </strong> Andréa est un réel atout dans notre équipe de projet. Avec son sens de l'organisation, elle fait toujours en sorte de faire avancer les travaux de manière efficace et organisée. De plus, sa créativité et sa passion pour le code se ressentent et permettent de concevoir des sites web uniques, interactifs et harmonieux.</p>
+      </div>
+      
         
     
-        <h3 id="mesCentresInterets" class="titreColor">Mes centres d'intérets</h3>
+        <h2 id="mesCentresInterets" class="titreColor">Mes centres d'intérets</h2>
         <div id="slider">
           <div id="precedent" onclick="ChangeSlide(-1)"><span class="fleche gauche"></span></div>
           <img src="images/img_pawsitive.png" alt="" id="slide" class="imgSlider">
@@ -228,8 +247,8 @@
       </div><br>
 
           <p>Dernière mise à jour faites le 20 décembre.</p><br>
-          
-          <div>© 2023 - Andréa - Portfolio</div>
+
+          <div>© 2024 - Andréa - Portfolio</div>
     </footer>
 
     <script src="srcipt.js"></script>
