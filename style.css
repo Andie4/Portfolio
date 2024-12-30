@@ -67,6 +67,11 @@ header nav ul{
     background-color: var(--color3);
 }
 
+.favicon{
+    width: 40px;
+    
+}
+
 
 h1{
     color: royalblue;
@@ -128,6 +133,94 @@ h1{
     transition: all 0.3s ease-in-out;
     background-color: var(--color2);
 }
+
+
+
+/* 
+.popUpMentions{
+    width: 800px;
+    height: 100px;
+} */
+
+.mentions-legales {
+    font-size: 0.9rem;
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 800px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    z-index: 1000;
+    border-radius: 10px;
+    color: var(--color3);
+    
+  }
+
+  .mentions-legales p {
+    justify-content: flex-start;
+    display: flex;
+
+  }
+  
+  .closeBtn {
+    cursor: pointer;
+    color:var(--color2);
+    background-color: var(--color3);
+    font-weight: bold;
+    float: right;
+    padding: 4px 8px;
+    border-radius: 3vh;
+  }
+
+  .aligner-gauche{
+      text-align: left;
+  }
+
+
+
+
+.sources {
+    font-size: 1rem;
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 800px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    z-index: 1000;
+    border-radius: 10px;
+    color: var(--color3);
+    
+  }
+
+  .sources a {
+    justify-content: flex-start;
+    display: flex;
+    color: var(--color3);
+    font-size: 0.9rem;
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -227,6 +320,41 @@ footer a {
     margin: 10px;
 }
 
+.popUpSources{
+    width: 300px;
+    height: 100px;
+}
+
+.popUpMentions{
+    width: 800px;
+    height: 100px;
+}
+
+.mentions-legales {
+    font-size: 0.9rem;
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 300px;
+    max-height: 900px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    z-index: 1000;
+    border-radius: 10px;
+    color: var(--color3);
+    
+  }
+
+  .mentions-legales p {
+    justify-content: flex-start;
+    display: flex;
+
+  }
+  
 
 
 /* ------------le contenu qui défile ------------- */
@@ -1348,11 +1476,11 @@ box-shadow: 0 0 20px var(--color2);
 
     
     .devSkills{
-        width: 350px;
+        width: 400px;
         margin: 0 auto;
     }
     .creaSkills{
-        width: 350px;
+        width: 400px;
         margin: 0 auto;
 
     }
@@ -1427,6 +1555,12 @@ box-shadow: 0 0 20px var(--color2);
         margin: 10px;
     }
 
+
+  .popUpSources{
+    width: 1000px;
+    height: 100px;
+}
+
     .tailleGridProjects{
         width: 800px;
     }
@@ -1488,6 +1622,9 @@ box-shadow: 0 0 20px var(--color2);
         border-radius: 10px;
         color: var(--color1);
         width: 500px;
+        min-height:550px ;
+        max-height: 600px;
+
     }
 
     .camarades{

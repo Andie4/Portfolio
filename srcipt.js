@@ -38,20 +38,50 @@ function ChangeSlide(sens) {
 //---------------------------- Pop up informations opquast ------------------------------------
 
     
-function showMentions() {
+function showInfos() {
     const popUp = document.getElementById("InfoPopUp");
     const background = document.querySelector(".bg-vert3");
   
     popUp.style.display = "block";
   }
   
-  function hideMentions() {
+  function hideInfos() {
     const popUp = document.getElementById("InfoPopUp");
     const background = document.querySelector(".bg-vert5");
   
     popUp.style.display = "none";
   }
+
+
+// ---------------------------- Pop up mentions légales ------------------------------------
+
+function showMentions() {
+    const popUp = document.getElementById("mentions-legales");
+    const background = document.querySelector(".bg-vert3");
   
+    popUp.style.display = "block";
+  }
+  
+  function hideMentions() {
+    const popUp = document.getElementById("mentions-legales");
+  
+    popUp.style.display = "none";
+  }
+
+  // -----------------------------pop up Sources
+
+  function showSources() {
+    const popUp = document.getElementById("sources");
+    const background = document.querySelector(".bg-vert3");
+  
+    popUp.style.display = "block";
+  }
+  
+  function hideSources() {
+    const popUp = document.getElementById("sources");
+  
+    popUp.style.display = "none";
+  }
 
 
 
@@ -89,7 +119,7 @@ document.addEventListener("DOMContentLoaded", () => {
           footer.style.backgroundColor = project.colorBtnActive;
           footer.style.color = "white";
 
-          // changement de la couleurdu titre en fonction du projet actif
+          // changement de la couleur du titre en fonction du projet actif
             const title = document.querySelector(".title");
             if (title) {
             title.style.color = project.colorBtnActive;
