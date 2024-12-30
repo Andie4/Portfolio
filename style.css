@@ -10,14 +10,6 @@ body {
     font-family: Popins, sans-serif;
 }
 
-.bordures{
-    border: 1px solid rgb(255, 0, 0);
-    border-radius: 10px;
-    padding: 10px;
-    margin: 20px;
-}
-
-
 
 /* -----------------polices---------------- */
 .bruno-ace-regular {
@@ -184,12 +176,15 @@ footer{
     color: white;
     text-align: center;
     padding: 10px;
+
 }
 
 .footerLink{
     text-align: center;
     margin-top: 20px;
     padding: 10px;
+    flex-direction: column;
+    display: flex;
 
 }
 
@@ -200,10 +195,7 @@ footer a {
     margin: 10px;
 }
 
-/* .devSkills{
-    width: 300px;
-    margin: 2vh;
-} */
+
 
 /* ------------le contenu qui défile ------------- */
 .messagedefilant {
@@ -566,19 +558,20 @@ h5{
 
 .colorContact{
 background-color: var(--color5);  
-width: 270px;  
+width: 300px;  
 margin-left: auto;
 margin-right: auto;
 border-radius: 10px;
 margin-top: 15vh;
 margin-bottom: 15vh;
+padding: 1vh;
 
 }
 
 .contact{
 margin-bottom: 10vh;
 margin-left: vh;
-width: 600px;
+width: 300px;
 justify-content: center;
 align-items: center;
 
@@ -590,15 +583,17 @@ border-radius: 10px;
 animation: infinite;
 animation-duration: 3s;
 animation-name: rotation;
-margin-left:10vh ;
+margin-left:25vh ;
 rotate: 20deg;
+margin-top: 2vh;
+margin-bottom: 2vh;
 
 }
 
 .linkedin{
 width: 10vh;
 height: auto;
-margin-left: 20vh;
+margin-left: 2vh;
 }
 
 
