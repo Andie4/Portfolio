@@ -84,8 +84,8 @@ h1{
     font-size: 1.5rem;
     font-weight: bold;
     color: var(--color3);
-    margin-top: 40vh;
-    margin-bottom: 30vh;
+    /* margin-top: 40vh;
+    margin-bottom: 30vh; */
 }
 
 
@@ -222,9 +222,111 @@ h1{
 
 
 
-
+/* //----------------------------------------------- taille MOBILE ------------------------------------------ */
 
 @media screen and (max-width:699px){
+
+
+    .animation{
+        width: 300px;
+        
+    }
+
+    .iconeStar{
+        width: 100px;
+        height: auto;
+        margin-left: 2vh;
+        margin-bottom: 1vh;
+    }
+
+    /* animation de l'etoile qui tourne vers la droite */
+    @keyframes rotation {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+      
+      .iconeStar {
+        animation: rotation 5s linear infinite;
+      }
+   
+/* animation de l'etoile qui tourne très vite vers la gauvche */
+    .iconeStar2{
+        width: 100px;
+        height: auto;
+        margin-left: 25vh;
+        margin-bottom: 1vh;
+
+    }
+
+    @keyframes rotation2 {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(-360deg);
+        }
+      }
+      
+      .iconeStar2 {
+        animation: rotation2 5s linear infinite;
+      }
+
+ 
+    /* animation du rond qui grossis et rétricit vite */
+    .iconeRond{
+        width: 60px;
+        height: auto;
+        margin-left: 10vh;
+        margin-bottom: 1vh;
+    }
+
+    @keyframes agrandissement {
+        0% {
+          transform: scale(0.5);
+        }
+        50% {
+          transform: scale(1);
+        }
+        100% {
+          transform: scale(0.5);
+        }
+      }
+      
+      .iconeRond {
+        animation: agrandissement 5s linear infinite;
+      }
+
+      /* animation du rond qui grossis et rétricit vite */
+    .iconeCroix{
+        width: 100px;
+        height: auto;
+        margin-left: 2vh;
+        margin-bottom: 1vh;
+    }
+
+    @keyframes agrandissement {
+        0% {
+          transform: scale(0.5);
+        }
+        50% {
+          transform: scale(1);
+        }
+        100% {
+          transform: scale(0.5);
+        }
+      }
+      
+      .iconeCroix{
+        animation: agrandissement 5s linear infinite;
+      }
+
+
+
+
 
 .border-vertProfessionnel {
     padding-left: 2vh;
@@ -818,6 +920,105 @@ box-shadow: 0 0 20px var(--color2);
     }
 
 
+    .animation{
+        width: 600px;
+        
+    }
+
+    .iconeStar{
+        width: 100px;
+        height: auto;
+        margin-left: 2vh;
+        margin-bottom: 1vh;
+    }
+
+    /* animation de l'etoile qui tourne vers la droite */
+    @keyframes rotation {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+      
+      .iconeStar {
+        animation: rotation 5s linear infinite;
+      }
+   
+/* animation de l'etoile qui tourne très vite vers la gauvche */
+    .iconeStar2{
+        width: 100px;
+        height: auto;
+        margin-left: 80vh;
+        margin-bottom: 1vh;
+
+    }
+
+    @keyframes rotation2 {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(-360deg);
+        }
+      }
+      
+      .iconeStar2 {
+        animation: rotation2 5s linear infinite;
+      }
+
+ 
+    /* animation du rond qui grossis et rétricit vite */
+    .iconeRond{
+        width: 60px;
+        height: auto;
+        margin-left: 60vh;
+        margin-bottom: 1vh;
+    }
+
+    @keyframes agrandissement {
+        0% {
+          transform: scale(0.5);
+        }
+        50% {
+          transform: scale(1);
+        }
+        100% {
+          transform: scale(0.5);
+        }
+      }
+      
+      .iconeRond {
+        animation: agrandissement 5s linear infinite;
+      }
+
+      /* animation du rond qui grossis et rétricit vite */
+    .iconeCroix{
+        width: 100px;
+        height: auto;
+        margin-left: 2vh;
+        margin-bottom: 1vh;
+    }
+
+    @keyframes agrandissement {
+        0% {
+          transform: scale(0.5);
+        }
+        50% {
+          transform: scale(1);
+        }
+        100% {
+          transform: scale(0.5);
+        }
+      }
+      
+      .iconeCroix{
+        animation: agrandissement 5s linear infinite;
+      }
+
+
+
     .messagedefilant {
         position: relative;
         overflow: hidden;
@@ -1314,13 +1515,113 @@ box-shadow: 0 0 20px var(--color2);
 /*---------------------------------------FORMAT DESKTOP------------------------------*/
 
 @media screen and (min-width:1000px) {
+
     .titreAccueil{
-        font-size: 3rem;
+        font-size: 4rem;
         font-weight: bold;
         color: var(--color3);
-        margin-top: 40vh;
-        margin-bottom: 30vh;
+        /* margin-top: 40vh;
+        margin-bottom: 30vh; */
     }
+
+    .animation{
+        width: 700px;
+        
+    }
+
+    .iconeStar{
+        width: 200px;
+        height: auto;
+        margin-left: 2vh;
+        margin-bottom: 1vh;
+    }
+
+    /* animation de l'etoile qui tourne vers la droite */
+    @keyframes rotation {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+      
+      .iconeStar {
+        animation: rotation 5s linear infinite;
+      }
+   
+/* animation de l'etoile qui tourne très vite vers la gauvche */
+    .iconeStar2{
+        width: 200px;
+        height: auto;
+        margin-left: 115vh;
+        margin-bottom: 1vh;
+
+    }
+
+    @keyframes rotation2 {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(-360deg);
+        }
+      }
+      
+      .iconeStar2 {
+        animation: rotation2 5s linear infinite;
+      }
+
+ 
+    /* animation du rond qui grossis et rétricit vite */
+    .iconeRond{
+        width: 100px;
+        height: auto;
+        margin-left: 150vh;
+        margin-bottom: 1vh;
+    }
+
+    @keyframes agrandissement {
+        0% {
+          transform: scale(0.5);
+        }
+        50% {
+          transform: scale(1);
+        }
+        100% {
+          transform: scale(0.5);
+        }
+      }
+      
+      .iconeRond {
+        animation: agrandissement 5s linear infinite;
+      }
+
+      /* animation du rond qui grossis et rétricit vite */
+    .iconeCroix{
+        width: 100px;
+        height: auto;
+        margin-left: 25vh;
+        margin-bottom: 1vh;
+    }
+
+    @keyframes agrandissement {
+        0% {
+          transform: scale(0.5);
+        }
+        50% {
+          transform: scale(1);
+        }
+        100% {
+          transform: scale(0.5);
+        }
+      }
+      
+      .iconeCroix{
+        animation: agrandissement 5s linear infinite;
+      }
+
+      
 
     
     
@@ -1673,7 +1974,6 @@ box-shadow: 0 0 20px var(--color2);
     animation: infinite;
     animation-duration: 3s;
     animation-name: rotation;
-    margin-left:10vh ;
     rotate: 20deg;
 
 }
@@ -1682,6 +1982,7 @@ box-shadow: 0 0 20px var(--color2);
     width: 15vh;
     height: auto;
     margin-left: 90vh;
+    margin-top: 2vh;
 }
 
 
