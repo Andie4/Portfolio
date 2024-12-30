@@ -236,7 +236,7 @@ h1{
         width: 100px;
         height: auto;
         margin-left: 2vh;
-        margin-bottom: 1vh;
+        margin-bottom: 5vh;
     }
 
     /* animation de l'etoile qui tourne vers la droite */
@@ -282,6 +282,8 @@ h1{
         height: auto;
         margin-left: 10vh;
         margin-bottom: 1vh;
+        margin-top: 10vh;
+
     }
 
     @keyframes agrandissement {
@@ -305,7 +307,8 @@ h1{
         width: 100px;
         height: auto;
         margin-left: 2vh;
-        margin-bottom: 1vh;
+        margin-bottom: 10vh;
+        margin-top: 5vh;
     }
 
     @keyframes agrandissement {
