@@ -60,7 +60,13 @@ function showMentions() {
 // script.js
 document.addEventListener("DOMContentLoaded", () => {
     const urlParams = new URLSearchParams(window.location.search);
-    const projectId = urlParams.get("id");
+    let projectId = urlParams.get("id");
+
+    if (!projectId) {
+        projectId = "resaweb";
+        history.replaceState(null, "", "?id=" + projectId); // Met à jour l'URL sans recharger la page
+    }
+
   
     fetch("projects.json")
       .then(response => response.json())
@@ -71,10 +77,10 @@ document.addEventListener("DOMContentLoaded", () => {
           // affiche les info des projets
           document.getElementById("project-title").textContent = project.title;
           document.getElementById("project-image").src = project.image;
-          document.getElementById("project-objective").textContent = `Objectif : ${project.objective}`;
-          document.getElementById("project-time").textContent = `Durée : ${project.time}`;
-          document.getElementById("project-process").textContent = `Processus : ${project.process}`;
-          document.getElementById("project-constraints").textContent = `Contraintes : ${project.constraints}`;
+          document.getElementById("project-objective").innerHTML = `<strong>Objectif : </strong> ${project.objective}`;
+          document.getElementById("project-time").innerHTML = `<strong>Durée : </strong>${project.time}`;
+          document.getElementById("project-process").innerHTML = `<strong>Processus : </strong> ${project.process}`;
+          document.getElementById("project-constraints").innerHTML = `<strong>Contraintes : </strong> ${project.constraints}`;
           const projectLink = document.getElementById("project-link");
           projectLink.href = project.link;
   
