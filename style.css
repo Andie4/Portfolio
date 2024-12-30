@@ -974,7 +974,7 @@ box-shadow: 0 0 20px var(--color2);
  
     /* animation du rond qui grossis et rétricit vite */
     .iconeRond{
-        width: 60px;
+        width: 45px;
         height: auto;
         margin-left: 55vh;
         margin-bottom: 1vh;
