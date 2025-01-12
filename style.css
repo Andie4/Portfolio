@@ -247,7 +247,7 @@ h1{
 
 /* //----------------------------------------------- taille MOBILE ------------------------------------------ */
 
-@media screen and (max-width:699px){
+@media screen and (max-width:767px){
 
 
     .animation{
@@ -684,6 +684,7 @@ footer a {
     flex-wrap: wrap;
     justify-content: space-around;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 a img{
@@ -829,6 +830,13 @@ h5{
     justify-content: center;
     margin-bottom: 5vh;
 }
+
+.apercuProjets-overlay {
+  position: absolute;
+  color: #000000;
+  margin: auto;
+}
+
 
 
 
@@ -1427,9 +1435,23 @@ box-shadow: 0 0 20px var(--color2);
     margin: auto;
 }
 
+
+
 .apercuProjets:hover {
     transform: scale(1.05);
     
+}
+
+.apercuProjets-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+}
+
+.apercuProjets-overlay {
+  position: absolute;
+  color: #000000;
+  margin: auto;
 }
 
 .projects2 {
