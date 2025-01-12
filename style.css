@@ -539,6 +539,8 @@ footer a {
     height: 250px;
     width: 300px;
     margin: auto;
+    padding: auto;
+    gap: 30vh;
 }
 
 .buttonLink{
@@ -913,7 +915,7 @@ box-shadow: 0 0 20px var(--color2);
 }
 
 /*                   FORMAT TABLETTE                        */
-@media screen and (min-width:700px) and (max-width:999px) {
+@media screen and (min-width:768px) and (max-width:1023px) {
      .titreAccueil{
         font-size: 3rem;
         font-weight: bold;
@@ -1472,6 +1474,8 @@ box-shadow: 0 0 20px var(--color2);
     width: 50px;
     height: 50px;
     margin-left: 25vh;
+    margin-top: -9vh;
+
 }
 
 .InfoPopUp {
@@ -1517,7 +1521,7 @@ box-shadow: 0 0 20px var(--color2);
 
 /*---------------------------------------FORMAT DESKTOP------------------------------*/
 
-@media screen and (min-width:1000px) {
+@media screen and (min-width:1024px) {
 
     .titreAccueil{
         font-size: 4rem;
@@ -1878,7 +1882,8 @@ box-shadow: 0 0 20px var(--color2);
     .popUp{
         width: 50px;
         height: 50px;
-        margin-left: 25vh;
+        margin-left: 30vh;
+        margin-top: -9vh;
     }
 
     .InfoPopUp {
