@@ -64,10 +64,11 @@ body {
     --color8: #052339;
     --color9: #690c0c;
     --color10: #390505; 
-    --temoi:#466a3f;
+    --temoi:#3c5b35;
     --grey:rgba(98, 102, 107, 0.355);
     --titre:#93a693;
     --btn:rgb(237, 237, 237);
+    --camarades:#e1dfdf;
 
 } 
 
@@ -88,6 +89,8 @@ body {
     --test:#477da3;
     --titre:rgb(23, 70, 23);
     --btn:#0F5B34;
+    --camarades:#0F5B34;
+
 
 
 
@@ -97,6 +100,9 @@ body {
 }
 .green{
     color: var(--color3);
+}
+.texteVert{
+  color: var(--camarades);
 }
 /* ---------------------------header----------------------------- */
 header{
@@ -165,7 +171,7 @@ h1{
 
 .titreColorProjets{
   font-size: 1.5rem;
-  color: var(--color3);
+  color: var(--color1);
   font-weight: bold;
   display: flex;
   justify-content: center;
@@ -1857,6 +1863,7 @@ box-shadow: 0 0 20px var(--color2);
         padding: 10px;
         border-radius: 10px;
         padding: 2vh;
+        color: var(--color1);
     }
 
     .interact-professionnel :hover{
@@ -2050,7 +2057,7 @@ box-shadow: 0 0 20px var(--color2);
 
     .camarades{
         font-size: 1.5rem;
-        color: var(--color3);
+        color: var(--camarades);
 
     }
 
