@@ -132,6 +132,9 @@ header nav ul{
 .navbar-toggler{
     background-color: var(--color1);
 }
+.container-fluid{
+    color: var(--color1);
+}
 
 .favicon{
     width: 40px;
