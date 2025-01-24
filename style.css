@@ -119,11 +119,12 @@ header nav ul{
 
 /* boutton du menu burger */
 .navbar-toggler{
-    background-color: var(--color3);
+    background-color: var(--color1);
 }
 
 .favicon{
     width: 40px;
+    height: auto;
     
 }
 
