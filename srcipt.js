@@ -122,7 +122,7 @@ document.addEventListener("DOMContentLoaded", () => {
           // changement de la couleur du titre en fonction du projet actif
             const title = document.querySelector(".title");
             if (title) {
-            title.style.color = project.colorBtnActive;
+            title.style.color = project.color;
             }
 
 
@@ -136,7 +136,7 @@ document.addEventListener("DOMContentLoaded", () => {
           } else {
         // projets non actif 
             link.style.backgroundColor = project.color; 
-            link.style.color = "white";
+            link.style.color = "black";
           }
         });
       }

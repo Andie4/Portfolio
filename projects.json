@@ -14,7 +14,7 @@
     {
       "id": "blog",
       "title": "Blog en PHP",
-      "color": "#d41616",
+      "color": "#ff0009",
       "colorBtnActive": "#6f0707",
       "image": "./images/img_blog.png",
       "objective": "Réaliser un mini blog avec la possibilité, pour les utilisateurs connectés, de laisser des commentaires.",
@@ -26,7 +26,7 @@
     {
       "id": "dataviz",
       "title": "Site de données",
-      "color": "#a41ea4",
+      "color": "#E364E3",
       "colorBtnActive": "#3f1d61",
       "image": "./images/img_dataviz.png",
       "objective": "Nous avions deux objectifs pour ce projet : créer une page web permettant de visualiser des données à propos d’un phénomène qui évolue, ici les revenus dans l'industrie de la musique, et créer une page 'Mentions légales' conforme aux normes.",
@@ -38,7 +38,7 @@
     {
       "id": "pawsitive",
       "title": "Site associatif",
-      "color": "#149238",
+      "color": "#24AE4D",
       "colorBtnActive": "#284c18",
       "image": "./images/img_pawsitive.png",
       "objective": "Le but de ce projet était de créer un support de communication supplémentaire pour notre association. Nous avons donc créé notre site en fonction de nos couleurs et des valeurs de notre association.",
@@ -51,7 +51,7 @@
       "id": "unity",
       "title": "Maquette de site",
       "color": "#918acd",
-      "colorBtnActive": "#768fff",
+      "colorBtnActive": "#311145",
       "image": "./images/img_unity.png",
       "objective": "Le but de cet exercice était de nous entraîner à faire un wireframe à partir d'un site puis d'en faire une maquette avec un tout nouveau design.",
       "time": "Pour ce projet nous disposions de 3 semaines.",
