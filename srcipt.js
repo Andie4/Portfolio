@@ -108,6 +108,7 @@ document.addEventListener("DOMContentLoaded", () => {
           document.getElementById("project-title").textContent = project.title;
           document.getElementById("project-image").src = project.image;
           document.getElementById("project-objective").innerHTML = `<strong>Objectif : </strong> ${project.objective}`;
+          document.getElementById("project-tools").innerHTML = `<strong>Outils : </strong> ${project.tools}`;
           document.getElementById("project-time").innerHTML = `<strong>Durée : </strong>${project.time}`;
           document.getElementById("project-process").innerHTML = `<strong>Processus : </strong> ${project.process}`;
           document.getElementById("project-constraints").innerHTML = `<strong>Contraintes : </strong> ${project.constraints}`;

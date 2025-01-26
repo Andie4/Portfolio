@@ -6,6 +6,7 @@
       "colorBtnActive": "#065186",
       "image": "./images/img_deepblue.png",
       "objective": "Créer un site de réservation d'excursions sous-marines.",
+      "tools":"Notion, Figma, PHP, JavaScript, Opquast, HTML, CSS, , GitHub, o2Switch. ",
       "time": "Pour ce projet, je disposais de 2 mois et demi.",
       "process": "Premièrement j'ai choisi mon thème. Ensuite j'ai créé le modèle entité-association puis le modèle physique de données. Suite à cela j'ai créé ma base de données. Et pour finir j'ai réalisé une maquette de mon site sur Figma avant de la développer.",
       "constraints": "Nous avions l'obligation d'inclure un filtre, une recherche et la possibilité de réserver une excursion. Le site devait aussi être responsive pour le format tablette.",
@@ -18,6 +19,7 @@
       "colorBtnActive": "#6f0707",
       "image": "./images/img_blog.png",
       "objective": "Réaliser un mini blog avec la possibilité, pour les utilisateurs connectés, de laisser des commentaires.",
+      "tools":"Notion, PHP, Bootstrap, o2Switch. ",
       "time": "Pour ce projet je disposais de 2 mois.",
       "process": "J'ai tout d'abord défini les informations dont j'avais besoin pour mon blog en fonction des 3 tables qui nous étaient imposées : utilisateurs, projets, billets. Ensuite j'ai créé les tables et les relations entre elles.",
       "constraints": "Le blog devait contenir une page archive ainsi qu'une page d'accueil affichant les 3 derniers posts. L'admin devait pouvoir : ajouter, supprimer et modifier des posts, ajouter, modifier et supprimer des commentaires, et modifier et supprimer des utilisateurs. Et pour finir, un utilisateur non connecté pouvait uniquement consulter les billets et afficher/masquer tous les commentaires associés à un billet. Il ne pouvait pas ajouter de commentaires.",
@@ -30,10 +32,24 @@
       "colorBtnActive": "#3f1d61",
       "image": "./images/img_dataviz.png",
       "objective": "Nous avions deux objectifs pour ce projet : créer une page web permettant de visualiser des données à propos d’un phénomène qui évolue, ici les revenus dans l'industrie de la musique, et créer une page 'Mentions légales' conforme aux normes.",
+      "tools":"Notion, Figma, GitHub, démarche Agile, Wave Accessibility, Opquast, Audit avec Ara.",
       "time": "Pour réaliser ce projet nous disposions de 2 mois et demi.",
       "process": "Ce projet réalisé en équipe de 3 personnes (un designer et deux développeurs dont moi) nous a permis de mettre en pratique de nombreuses compétences. Tout d'abord nous avons fait de nombreuses recherches pour trouver un thème dont nous pouvions trouver beaucoup de données et qui nous plaisait. Une fois notre thème choisi nous avons défini les données dont nous avions besoin et commencé à les rassembler et à les trier en fonction de ce que nous voulions garder ou non. Une fois les données sélectionnées nous avons créé une maquette sur Figma, puis nous avons développé notre site.",
       "constraints": "Le site devait être hébergé sur GitHub et devait comporter de l'interactivité avec l'utilisateur.",
       "link": "https://andie4.github.io/DataMusic/"
+    },
+    {
+      "id": "mermade",
+      "title": "Défis site en une nuit ",
+      "color": "#7CDEEA",
+      "colorBtnActive": "#033553",
+      "image": "./images/img_mermade.png",
+      "objective": "Ce projet personnel, à été réalisé avec des 8 de mes amis, 3 designer et 5 développeurs. L'IUT Gustave Eiffel de Meaux nous as ouvert ses portes le temps de la nuit. Quel est l'objectif ? Proposer, implémenter et packager une application Web 2.0 durant la nuit du 5 et 6 décembre 2024, de 16h39 à 08h04. <a href='https://www.nuitdelinfo.com/' target='_blank'>Site de l'organisateur</a>",
+      "tools":"Figma, GitHub, HTML, CSS, JavaScript.",
+      "time": "Ce projet à durée le temps d'une nuit !",
+      "process": "La première chose que nous avons fait à été d'organiser la nuit en fonction des différentes étapes (lecture et analyse du sujet, lecture et choix des défis, réflexion sur les éléments à inclure sur notre site, brainstorming, création du git, création de la maquette, développement). Pour ce faire nous avions établie une durée pour chacune de ces étapes. ",
+      "constraints": "Quel est le challenge ? Il a fallut que l'on sélectionne 5 défis, lancé par des partenaires, sur une quarantaine. Notre site à répondu aux défis suivant. Parmis les défis proposé nous avons sélectionné un défis sur l'accessibilité, un autre nous demandant d'inclure des éléments faisant références au jeu Monkey Island, intégrer un système de gamification, intégrer des principes de green coding, utiliser une API météo.",
+      "link": "https://dragondoee.github.io/mermade/"
     },
     {
       "id": "pawsitive",
@@ -42,6 +58,7 @@
       "colorBtnActive": "#284c18",
       "image": "./images/img_pawsitive.png",
       "objective": "Le but de ce projet était de créer un support de communication supplémentaire pour notre association. Nous avons donc créé notre site en fonction de nos couleurs et des valeurs de notre association.",
+      "tools":"Notion, méthode Scrum, Wordpress, o2switch.",
       "time": "Pour réaliser ce projet nous disposions de 3 mois.",
       "process": "Notre site fait partie d'un projet consistant à créer une association de A à Z : son but, ses valeurs, ses objectifs, ses moyens de communication. Nous avons tout d'abord créé une maquette sur Figma. Dans cette partie du projet je me suis occupé de développer le site.",
       "constraints": "Le site devait être développé avec WordPress, contenir un article, et nous devions utiliser des thèmes et des extensions.",
@@ -54,22 +71,11 @@
       "colorBtnActive": "#311145",
       "image": "./images/img_unity.png",
       "objective": "Le but de cet exercice était de nous entraîner à faire un wireframe à partir d'un site puis d'en faire une maquette avec un tout nouveau design.",
+      "tools":"Figma. ",
       "time": "Pour ce projet nous disposions de 3 semaines.",
       "process": "Ce projet a été réalisé en binôme. Tout d'abord il y a eu une phase de recherche. Une fois notre site choisi (en l'occurrence Unity), nous avons commencé à faire notre wireframe. Nous avons appris à utiliser et créer des composants sur Figma. Au départ nous avons eu un peu de mal à ne pas trop détailler notre wireframe. Puis nous avons créé notre moodboard avec les éléments suivants : univers, polices, couleurs, etc., avant de faire notre maquette. À partir de notre wireframe et de notre moodboard nous avons commencé à faire notre maquette sur Figma avec notre nouveau design.",
       "constraints": "Il fallait que tous les blocs du wireframe faits à partir du site soient représentés sur notre maquette.",
       "link": "https://www.figma.com/design/l9XpaUejf0DNfMQ8NLdBMG/Unity---Emilie-et-Andr%C3%A9a?node-id=0-1&t=pgPpvFUC3Yjp3I5Y-1"
-    },
-    {
-      "id": "itw",
-      "title": "Interview",
-      "color": "#897643",
-      "colorBtnActive": "#2e2717",
-      "image": "./images/img_itw.png",
-      "objective": "Le but de ce projet était de créer une interview de 5 à 6 minutes sur un photographe.",
-      "time": "Pour ce projet nous disposions de 2 mois et demi.",
-      "process": "Ce projet réalisé en groupe de 4 personnes, a été découpé en de nombreuses étapes. Nous avons eu de nombreuses séances d'audiovisuel pour apprendre à manipuler le matériel (un caméscope 4K AG-CX350, des microphones cravate, des trépieds, des projecteurs...). Tout d'abord, nous avons fait des recherches sur le sujet, puis nous avons pris contact avec de nombreux photographes pour qu'ils nous accordent leur temps pour l'interview. Ensuite lorsque nous avons trouvé notre photographe nous avons écrit nos questions en fonction de ses expériences et de sa personnalité. Puis nous avons effectué une première visite sur le lieu de l'interview,avant de réaliser l'interview. Et pour finir nous avons tourner notre interview et chacune avons fait un montage individuel.",
-      "constraints": "L'interview devait uniquement porter sur le métier de photographe, il devait y avoir des sous-titres en anglais sans utiliser de traducteur, nous devions utiliser Premiere Pro, et elle devait durer entre 5 et 6 minutes.",
-      "link": "https://youtu.be/5pr81fdl-cI"
     }
   ]
   
