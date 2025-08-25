@@ -44,10 +44,10 @@
       "color": "#7CDEEA",
       "colorBtnActive": "#033553",
       "image": "./images/img_mermade.png",
-      "objective": "Ce projet personnel, à été réalisé avec des 8 de mes amis, 3 designer et 5 développeurs. L'IUT Gustave Eiffel de Meaux nous as ouvert ses portes le temps de la nuit. Quel est l'objectif ? Proposer, implémenter et packager une application Web 2.0 durant la nuit du 5 et 6 décembre 2024, de 16h39 à 08h04. <a href='https://www.nuitdelinfo.com/' target='_blank'>Site de l'organisateur</a>",
+      "objective": " Ce projet personnel, a été réalisé avec 8 de mes amis. Réunissant 3 designers, et 5 développeurs dont je faisais partie. L'IUT Gustave Eiffel de Meaux nous a ouvert ses portes le temps d’une nuit. Quel est l'objectif ? Proposer, implémenter et packager une application Web 2.0 durant la nuit du 5 et 6 décembre 2024, de 16h39 à 08h04. <a href='https://www.nuitdelinfo.com/' target='_blank'>Site de l'organisateur</a>",
       "tools":"Figma, GitHub, HTML, CSS, JavaScript.",
       "time": "Ce projet à durée le temps d'une nuit !",
-      "process": "La première chose que nous avons fait à été d'organiser la nuit en fonction des différentes étapes (lecture et analyse du sujet, lecture et choix des défis, réflexion sur les éléments à inclure sur notre site, brainstorming, création du git, création de la maquette, développement). Pour ce faire nous avions établie une durée pour chacune de ces étapes. ",
+      "process": "La première chose que nous avons fait a été d'organiser la nuit en fonction des différentes étapes. La lecture et analyse du sujet, lecture et choix des défis, réflexion sur les éléments à inclure sur notre site, brainstorming, création du git, création de la maquette, développement. Pour ce faire nous avions établi une durée pour chacune de ces étapes. Pour ce faire nous avions établie une durée pour chacune de ces étapes. Nous avons centralisé notre code sur GitHub. ",
       "constraints": "Quel est le challenge ? Il a fallut que l'on sélectionne 5 défis, lancé par des partenaires, sur une quarantaine. Notre site à répondu aux défis suivant. Parmis les défis proposé nous avons sélectionné un défis sur l'accessibilité, un autre nous demandant d'inclure des éléments faisant références au jeu Monkey Island, intégrer un système de gamification, intégrer des principes de green coding, utiliser une API météo.",
       "link": "https://dragondoee.github.io/mermade/"
     },
